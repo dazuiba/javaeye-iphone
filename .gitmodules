@@ -1,0 +1,12 @@
+[submodule "ExternalLibraries/ObjectivePlurk"]
+	path = ExternalLibraries/ObjectivePlurk
+	url = http://github.com/zonble/ObjectivePlurk.git
+[submodule "ExternalLibraries/LFWebAPIKit"]
+	path = ExternalLibraries/LFWebAPIKit
+	url = http://github.com/lukhnos/LFWebAPIKit.git
+[submodule "ExternalLibraries/bsjsonadditions"]
+	path = ExternalLibraries/bsjsonadditions
+	url = http://github.com/blakeseely/bsjsonadditions.git
+[submodule "ExternalLibraries/Three20"]
+	path = ExternalLibraries/Three20
+	url = http://github.com/zonble/three20.git

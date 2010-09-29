@@ -1,0 +1,6 @@
+@interface EBTabbarController : UITabBarController 
+{
+
+}
+
+@end

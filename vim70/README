@@ -1,0 +1,75 @@
+README file for Vim 7.0 for Mac OS X
+
+     Vim was written by Bram Moolenaar and others.  The port to Mac OS
+(including Mac OS X) was started by Dany St-Amant.  This version was
+compiled and packaged by Benji Fisher <benji@member.AMS.org> .  It includes a
+"huge" feature set and the Carbon GUI.  For details, try
+
+	:version
+
+when running Vim.app .  For the latest version, see
+
+http://macvim.org/OSX/index.php#Downloading .
+
+     Vim is open source and freely distributable.  It is charityware:  for
+details, read the file doc/uganda.txt or, inside vim,
+	:help uganda
+
+*** Installation ***
+
+     Installation should be easy:  just drag Vim.app to where you want to keep
+it.  I put it in /Applications/ .
+Unless you want a maximally vi-compatible version of vim, it is recommended
+that you copy the standard startup files to your home directory, and name them
+.vimrc and .gvimrc .  From a shell,
+
+	$ cd Vim.app/Contents/Resources/vim/runtime
+	$ cp vimrc_example.vim ~/.vimrc
+	$ cp gvimrc_example.vim ~/.gvimrc
+
+You can do the same with Finder if you prefer (with "Show Package Contents"),
+but it may not let you use .vimrc and .gvimrc; you can use _vimrc and _gvimrc
+instead.
+
+*** Menus ***
+
+     If you want vim-standard menus, or if you use menu translations, then
+uncomment the line
+	" finish
+so that it looks like
+	finish
+in the file Vim.app/Contents/Resources/vim/gvimrc .  Once you have started
+Vim.app, an easy way to access this file is
+	:e $VIM/gvimrc
+
+*** Extras ***
+
+     Besides Vim.app and this README file, this distribution includes the
+following:
+
+gvim - an executable shell script that will start Vim.app from the command
+line.  You can put this somewhere in your path.
+
+gvim.app - an application that lets you run multiple instances of Vim.app:
+just click on gvim or drop a file onto it in the Finder or Dock.
+
+If you do not keep Vim.app in /Applications, then you may have to edit the
+gvim shell script and gvim.app/Contents/Resources/script to give the correct
+path.
+
+*** Modifications ***
+
+     This distribution contains several modifications compared to the standard
+version.  This may include custom patches.    In addition, as of April
+2006, the following files are added or changed:
+
+Vim.app/Contents/Resources/vim/vimrc - a system vimrc file.  This attempts to
+set the $PATH environment variable and the working directory sensibly in case
+vim was started from the Finder.
+
+Vim.app/Contents/Resources/vim/gvimrc - a system gvimrc file.  This makes
+something close to Mac-standard menus, but breaks menu translations.
+
+TODO:
+* There should be an easier way to choose vim-standard or mac-standard menus.
+* Have the build script append a list of custom patches to this file.

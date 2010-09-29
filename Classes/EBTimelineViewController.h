@@ -1,0 +1,6 @@
+@interface EBTimelineViewController : TTTableViewController 
+{
+
+}
+
+@end

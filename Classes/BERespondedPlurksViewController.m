@@ -8,7 +8,9 @@
 {
 	self = [super initWithStyle:UITableViewStylePlain];
 	if (self != nil) {
-		self.title = NSLocalizedString(@"Responded", @"");
+		self.title = NSLocalizedString(@"favorite", @"");
+		UIImage* image = [UIImage imageNamed:@"favorite.png"];
+		self.tabBarItem = [[[UITabBarItem alloc] initWithTitle:self.title image:image tag:3] autorelease];
 	}
 	return self;
 }

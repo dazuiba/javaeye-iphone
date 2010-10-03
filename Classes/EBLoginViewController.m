@@ -133,7 +133,7 @@
 		[passwordTextField becomeFirstResponder];
 		return;
 	}	
-	[[ObjectivePlurk sharedInstance] loginWithUsername:account password:password delegate:self userInfo:nil];
+	[[ObjectiveJEye sharedInstance] loginWithUsername:account password:password delegate:self userInfo:nil];
 }
 
 
@@ -188,11 +188,11 @@
 
 #pragma mark -
 
-- (void)plurk:(ObjectivePlurk *)plurk didLoggedIn:(NSDictionary *)result
+- (void)jeye:(ObjectiveJEye *)jeye didLoggedIn:(NSDictionary *)result
 {
 	[self.parentViewController dismissModalViewControllerAnimated:YES];
 }
-- (void)plurk:(ObjectivePlurk *)plurk didFailLoggingIn:(NSError *)error
+- (void)jeye:(ObjectiveJEye *)jeye didFailLoggingIn:(NSError *)error
 {
 	ZBAlertWithMesage(NSLocalizedString(@"Failed to login!", @""), [error localizedDescription]);
 }

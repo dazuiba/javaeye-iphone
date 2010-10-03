@@ -8,9 +8,10 @@
 {
 	self = [super initWithStyle:UITableViewStylePlain];
 	if (self != nil) {
-		self.title = NSLocalizedString(@"Private", @"");
-	}
-	return self;
+		self.title = NSLocalizedString(@"messages", @"");
+		UIImage* image = [UIImage imageNamed:@"messages.png"];
+		self.tabBarItem = [[[UITabBarItem alloc] initWithTitle:self.title image:image tag:3] autorelease];	}
+		return self;
 }
 
 - (void)createModel 

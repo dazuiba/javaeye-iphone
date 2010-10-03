@@ -1,7 +1,7 @@
 #import "EBAppDelegate.h"
 #import "EBLoginViewController.h"
 #import "EBTimelineViewController.h"
-#import "EBMyPlurksViewController.h"
+#import "EBMyJEyeViewController.h"
 #import "EBPrivatePlurksViewController.h"
 #import "BERespondedPlurksViewController.h"
 #import "EBTabbarController.h"
@@ -19,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-	[ObjectivePlurk sharedInstance].APIKey = PLURK_API_KEY;
+	[ObjectiveJEye sharedInstance].APIKey = PLURK_API_KEY;
 
 	TTNavigator *navigator = [TTNavigator navigator];
 	navigator.supportsShakeToReload = YES;
@@ -32,15 +32,15 @@
 	[map from:@"*" toViewController:[TTWebController class]];
 	[map from:@"banana://login" toModalViewController:[EBLoginViewController class]];
 	[map from:@"banana://timeline" toViewController:[EBTimelineViewController class]];
-	[map from:@"banana://my" toViewController:[EBMyPlurksViewController class]];
+	[map from:@"banana://my" toViewController:[EBMyJEyeViewController class]];
 	[map from:@"banana://private" toViewController:[EBPrivatePlurksViewController class]];
-	[map from:@"banana://plurk" toViewController:[EBTabbarController class]];
+	[map from:@"banana://jeye" toViewController:[EBTabbarController class]];
 	[map from:@"banana://responded" toViewController:[BERespondedPlurksViewController class]];
 	
 	[navigator.window makeKeyAndVisible];
-	[navigator openURLs:@"banana://plurk", nil];
+	[navigator openURLs:@"banana://jeye", nil];
 	
-	if (![[ObjectivePlurk sharedInstance] resume]) {	
+	if (![[ObjectiveJEye sharedInstance] resume]) {	
 		[navigator openURLs:@"banana://login", nil];
 	}
 

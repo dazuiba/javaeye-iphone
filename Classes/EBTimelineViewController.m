@@ -8,7 +8,10 @@
 {
 	self = [super initWithStyle:UITableViewStylePlain];
 	if (self != nil) {
-		self.title = NSLocalizedString(@"All Plurks", @"");
+		self.title = NSLocalizedString(@"twitters", @"");
+		UIImage* image = [UIImage imageNamed:@"twitter.png"];
+		self.tabBarItem = [[[UITabBarItem alloc] initWithTitle:self.title image:image tag:3] autorelease];
+
 	}
 	return self;
 }

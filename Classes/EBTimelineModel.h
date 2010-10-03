@@ -1,4 +1,4 @@
-#import "ObjectivePlurk.h"
+#import "ObjectiveJEye.h"
 #import "EBTimelineItem.h"
 
 @interface EBTimelineModel : TTModel 

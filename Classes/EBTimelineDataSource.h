@@ -1,5 +1,5 @@
 #import "EBTimelineModel.h"
-#import "ObjectivePlurk.h"
+#import "ObjectiveJEye.h"
 
 @interface EBTimelineDataSource : TTListDataSource 
 {

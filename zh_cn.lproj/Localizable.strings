@@ -9,5 +9,7 @@
 "favorite" = "收藏";
 "news" = "新闻";
 "message" = "站内信";
+"Your Javaeye Account" = "你的Javaeye帐号";
 
-
+"Your Password" = "密码";
+"Failed to login!" = "登录失败!";

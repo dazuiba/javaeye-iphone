@@ -45,7 +45,7 @@
 	accountTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
 	accountTextField.font = [UIFont systemFontOfSize:15.0];
 	accountTextField.delegate = self;
-	accountTextField.placeholder = NSLocalizedString(@"Your Plurk Account", @"");
+	accountTextField.placeholder = NSLocalizedString(@"Your Javaeye Account", @"");
 	accountTextField.textColor = [UIColor blueColor];
 	accountTextField.autocorrectionType = UITextAutocorrectionTypeNo;
 	accountTextField.autocapitalizationType = UITextAutocapitalizationTypeNone;

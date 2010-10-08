@@ -211,7 +211,6 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* EBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* EBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* ExplosiveBanana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExplosiveBanana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		221F1FF11250C1D7007729EA /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
 		222A4F941256000400CD8B0D /* JEUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEUser.h; sourceTree = "<group>"; };
@@ -220,14 +219,15 @@
 		2238237C12583A1C0000D21F /* zh_cn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_cn; path = zh_cn.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2247632B1253A1F600FDF745 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "ExternalLibraries/ObjectivePlurk/ObjectivePlurk/NSData+Base64.m"; sourceTree = "<group>"; };
 		2247632C1253A1F600FDF745 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "ExternalLibraries/ObjectivePlurk/ObjectivePlurk/NSData+Base64.h"; sourceTree = "<group>"; };
+		224FEC43125EDB0300BC02F9 /* ExplosiveBanana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExplosiveBanana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FC974D12587B7B00C4E836 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorite.png; path = images/favorite.png; sourceTree = "<group>"; };
 		22FC974E12587B7B00C4E836 /* messages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = messages.png; path = images/messages.png; sourceTree = "<group>"; };
 		22FC974F12587B7B00C4E836 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = news.png; path = images/news.png; sourceTree = "<group>"; };
 		22FC975012587B7B00C4E836 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = images/twitter.png; sourceTree = "<group>"; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28A0AAE50D9B0CCF005BE974 /* ExplosiveBanana_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplosiveBanana_Prefix.pch; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* MyJavaEye_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyJavaEye_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* ExplosiveBanana-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ExplosiveBanana-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* MyJavaEye-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MyJavaEye-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D4381AA911E107100062FE45 /* EBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBLoginViewController.h; sourceTree = "<group>"; };
 		D4381AAA11E107100062FE45 /* EBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBLoginViewController.m; sourceTree = "<group>"; };
 		D4381B2B11E10F170062FE45 /* ZBAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZBAlert.h; path = ExternalLibraries/ZBExtensions/ZBAlert.h; sourceTree = "<group>"; };
@@ -336,7 +336,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* ExplosiveBanana.app */,
+				224FEC43125EDB0300BC02F9 /* ExplosiveBanana.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -366,7 +366,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				28A0AAE50D9B0CCF005BE974 /* ExplosiveBanana_Prefix.pch */,
+				28A0AAE50D9B0CCF005BE974 /* MyJavaEye_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -380,7 +380,7 @@
 				22FC974E12587B7B00C4E836 /* messages.png */,
 				22FC974F12587B7B00C4E836 /* news.png */,
 				D478B95611DD3212000E85D1 /* Three20.bundle */,
-				8D1107310486CEB800E47090 /* ExplosiveBanana-Info.plist */,
+				8D1107310486CEB800E47090 /* MyJavaEye-Info.plist */,
 				22382360125839040000D21F /* Localizable.strings */,
 			);
 			name = Resources;
@@ -567,9 +567,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* ExplosiveBanana */ = {
+		1D6058900D05DD3D006BFB54 /* my-javaeye */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ExplosiveBanana" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "my-javaeye" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -586,9 +586,9 @@
 				D478B95211DD31F9000E85D1 /* PBXTargetDependency */,
 				D478B95411DD31F9000E85D1 /* PBXTargetDependency */,
 			);
-			name = ExplosiveBanana;
+			name = "my-javaeye";
 			productName = ExplosiveBanana;
-			productReference = 1D6058910D05DD3D006BFB54 /* ExplosiveBanana.app */;
+			productReference = 224FEC43125EDB0300BC02F9 /* ExplosiveBanana.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -642,7 +642,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* ExplosiveBanana */,
+				1D6058900D05DD3D006BFB54 /* my-javaeye */,
 			);
 		};
 /* End PBXProject section */
@@ -861,9 +861,9 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ExplosiveBanana_Prefix.pch;
+				GCC_PREFIX_HEADER = MyJavaEye_Prefix.pch;
 				HEADER_SEARCH_PATHS = ExternalLibraries/Three20/Build/Products/three20;
-				INFOPLIST_FILE = "ExplosiveBanana-Info.plist";
+				INFOPLIST_FILE = "MyJavaEye-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_LDFLAGS = (
 					"-lstdc++",
@@ -882,7 +882,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ExplosiveBanana_Prefix.pch;
 				HEADER_SEARCH_PATHS = ExternalLibraries/Three20/Build/Products/three20;
-				INFOPLIST_FILE = "ExplosiveBanana-Info.plist";
+				INFOPLIST_FILE = "MyJavaEye-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -923,7 +923,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ExplosiveBanana" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "my-javaeye" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
